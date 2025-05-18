@@ -18,7 +18,7 @@ This README provides step-by-step instructions to run the Farmer Chatbot project
 You can install missing libraries in Colab using:
 
 ```python
-!pip install torch transformers pillow numpy fastapi
+!pip install torch transformers pillow numpy fastapi gradio grok
 ```
 
 ---
