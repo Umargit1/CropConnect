@@ -13,6 +13,7 @@ This README provides step-by-step instructions to run the Farmer Chatbot project
    * `Pillow`
    * `numpy`
    * `fastapi`
+   * * `gradio`
 
 You can install missing libraries in Colab using:
 
@@ -100,7 +101,7 @@ print(f'Chatbot Advice: {advice}')
 
 ---
 
-## 🏃 Running with `farmer_chatbot.py`
+## 🏃 Running with `farmer_chatbot.py`(GRADIO UI )
 
 If you want to run everything directly from `farmer_chatbot.py`, use:
 
@@ -108,6 +109,6 @@ If you want to run everything directly from `farmer_chatbot.py`, use:
 !python farmer_chatbot.py
 ```
 
-This will execute the main logic directly, assuming it has the right calls to `classify_crop_health` and `get_crop_health_advice`.
+This will execute the main logic directly, assuming it has the right calls to `classify_crop_health` and `get_crop_health_advice`
 
 ---
